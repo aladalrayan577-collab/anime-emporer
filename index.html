@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Site</title>
+    <style>
+        /* ستايل الصفحة */
+        body {
+            background: #0b0b0b;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 15px;
+            text-align: center;
+            font-size: 28px;
+            background: #111;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 15px;
+        }
+        .card {
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 450px;
+            width: 300px;
+            transition: 0.3s;
+        }
+        .card img {
+            width: 100%;
+            height: 75%;
+            object-fit: cover;
+        }
+        .card h3 {
+            font-size: 18px;
+            text-align: center;
+            padding: 10px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <header>موقع الأنمي الخاص بك</header>
+    <div class="grid">
+        <!-- Jujutsu Kaisen -->
+        <div class="card">
+            <img src="https://image.tmdb.org/t/p/original/uyyMrkDgjnpGFM9dnJEYlUya7O0.jpg" alt="Jujutsu Kaisen">
+            <h3>Jujutsu Kaisen</h3>
+        </div>
+        <!-- Attack on Titan -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Attack_on_Titan_S3_Key_Visual.jpg" alt="Attack on Titan">
+            <h3>Attack on Titan</h3>
+        </div>
+        <!-- Demon Slayer -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/Kimetsu_no_Yaiba_Key_Visual.jpg" alt="Demon Slayer">
+            <h3>Demon Slayer</h3>
+        </div>
+        <!-- My Hero Academia -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/My_Hero_Academia_key_visual.jpg" alt="My Hero Academia">
+            <h3>My Hero Academia</h3>
+        </div>
+        <!-- Dragon Ball -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Dragon_Ball_Z_cover.jpg" alt="Dragon Ball">
+            <h3>Dragon Ball</h3>
+        </div>
+        <!-- One Piece -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_cover_1.jpg" alt="One Piece">
+            <h3>One Piece</h3>
+        </div>
+        <!-- Naruto -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg" alt="Naruto">
+            <h3>Naruto</h3>
+        </div>
+        <!-- Bleach -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Bleach_cover_1.jpg" alt="Bleach">
+            <h3>Bleach</h3>
+        </div>
+        <!-- Solo Leveling -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/33/Solo_Leveling_Volume_1_cover.jpg" alt="Solo Leveling">
+            <h3>Solo Leveling</h3>
+        </div>
+    </div>
+</body>
+</html>
